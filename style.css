@@ -1,0 +1,36 @@
+body{
+  font-family: Arial;
+}
+
+td, th {
+  padding: 8px;
+  text-align: left;
+}
+
+th, h1, h2 {
+  color: rgb(72, 147, 228);
+}
+
+.entradas{
+  display: flex;
+}
+
+.entradas > div ~ div {
+  margin-left: 16px;
+}
+
+button, table {
+  margin-top: 8px;
+}
+
+.app{
+  background-color: rgb(228, 228, 230);
+  margin: auto;
+  padding: 16px;
+  max-width: 550px;
+}
+
+table {
+  margin: auto;
+  margin-top: 15px;
+}

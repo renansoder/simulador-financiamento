@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Simulador Financiamento</title>
+</head>
+
+<body>
+
+  <div class="app">
+    <h1>Simulador de Financiamento</h1>
+    <div class="entradas">
+      <div>
+        <label>Valor:<br><input id="valor" type="number"></label>
+      </div>
+      <div>
+        <label>Prazo (anos):<br><input id="prazoAnos" type="number"></label>
+      </div>
+      <div>
+        <label>Juros (ano):<br><input id="jurosAa" type="number"></label>
+      </div>
+    </div>
+    <button onclick="simular()">Simular</button>
+    <h2>Resultados</h2>
+    <div class="entradas">
+      <div>
+        <label>Prazo (meses):<br><input id="prazoMeses" type="number" readonly></label>
+      </div>
+      <div>
+        <label>Juros (mês):<br><input id="jurosAm" type="number" readonly></label>
+      </div>
+      <div>
+        <label>Juros acumulados:<br><input id="jurosTotal" type="number" readonly></label>
+      </div>
+    </div>
+    <table border="1px">
+      <thead>
+        <tr>
+          <th>Prestação</th>
+          <th>Amortização</th>
+          <th>Juros</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
